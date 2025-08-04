@@ -42,7 +42,7 @@ app.use("/post", postRoutes);
 app.use("/comment", commentRoutes);
 
 app.get("/", (req, res) => {
-  res.send("Welcome to the Blog API");
+  res.send("Welcome to the Blog API...");
 });
 
 const port = process.env.PORT || 8800;
